@@ -2,10 +2,8 @@ octave
 octave-symbolic
 octave-miscellaneous
 octave-statistics
-octave-cli
 gnuplot
 ghostscript
 
 
 
-error: graphics_toolkit: qt toolkit is not available

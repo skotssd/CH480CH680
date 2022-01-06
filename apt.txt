@@ -1,7 +1,3 @@
-octave
-octave-symbolic
-octave-miscellaneous
-octave-statistics
 gnuplot
 ghostscript
 

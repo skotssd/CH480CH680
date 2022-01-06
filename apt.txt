@@ -4,4 +4,6 @@ octave-miscellaneous
 octave-statistics
 gnuplot
 ghostscript
+qt5-default
+
 

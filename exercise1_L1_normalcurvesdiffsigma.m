@@ -13,7 +13,7 @@ f = @(x,mu,sigma) (1/(sigma*sqrt(2*pi)))*exp((-1/2)*((x-mu)./sigma).^2);
 
 %define row vector of x values and mu and sigma
 
-x=0:0.01:3; mu=1.5; sigma1=0.1; sigma2=0.25; sigma3=0.5;
+x=-1:0.01:4; mu=1.5; sigma1=0.1; sigma2=0.25; sigma3=0.5;
 
 % call the function, make sure variables are in the right order
 
@@ -21,9 +21,11 @@ y1=f(x,mu,sigma1); y2=f(x,mu,sigma2); y3=f(x,mu,sigma3);
 
 % plot the 3 lines
 
-plot(x,y1,x,y2,x,y3,'linewidth',2)
+h=plot(x,y1,x,y2,x,y3,'linewidth',2);
+%set(h,'linewidth',2)
+%get(h(1))
 set(gca,'linewidth',2,'fontsize',11)
-xlabel('x'); ylabel('frequency')
+xlabel('x','fontweight','bold'); ylabel('frequency')
 legend('\sigma=0.1', '\sigma=0.25','\sigma=0.5','location','northeast')
 
 area1=trapz(x,y1)

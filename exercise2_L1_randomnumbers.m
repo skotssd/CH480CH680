@@ -80,7 +80,7 @@ plot(x,y*1000*binwidth,'linewidth',2); set(gca,'linewidth',2,'fontsize',11)
 % or using the built in function!
 
 %for Octave use this line. for matlab comment it out.
-pkg load statistics
+%pkg load statistics
 
 figure(6); histfit(simdata1000)
 xlabel('x'); ylabel('frequency'); title('1000 random numbers')

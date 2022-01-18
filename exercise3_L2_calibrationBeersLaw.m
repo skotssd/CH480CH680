@@ -3,7 +3,7 @@
 
 % for octave
 
-pkg load statistics
+% pkg load statistics
 
 % input the data x=conc, y=Abs;
 

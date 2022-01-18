@@ -1,7 +1,5 @@
 gnuplot
 ghostscript
-octave
-octave-statistics
 
 
 

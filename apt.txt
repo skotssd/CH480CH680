@@ -1,5 +1,8 @@
 gnuplot
 ghostscript
+qtcreator
+octave
+octave-statistics
 
 
 
